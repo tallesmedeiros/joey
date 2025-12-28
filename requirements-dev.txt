@@ -1,0 +1,10 @@
+# Development and testing dependencies for Joey
+# This includes the runtime dependencies plus additional packages needed for testing
+
+# Include runtime dependencies
+-r requirements.txt
+
+# Testing dependencies
+pytest>=7.0.0
+torchvision>=0.15.0
+numpy>=1.20.0

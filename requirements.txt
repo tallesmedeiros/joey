@@ -1,3 +1,4 @@
-devito
-torch
-torchvision
+# Core runtime dependencies for Joey
+# Joey is a machine learning framework running on top of Devito
+devito>=4.8.0
+torch>=2.0.0
